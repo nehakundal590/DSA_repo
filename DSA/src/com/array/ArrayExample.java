@@ -50,7 +50,7 @@ public class ArrayExample {
 
      for(int i = 1; i < n; i++) {
          if(arr[i] < min) min = arr[i];
-         if(arr[i] > max) max = arr[i];  // ✅ fixed
+         if(arr[i] > max) max = arr[i];  
      }
 
      System.out.println("Min = " + min);
